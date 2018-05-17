@@ -1,6 +1,8 @@
 # L'APP de la mort 
+### Voici l'index des pages https://tranquil-earth-58825.herokuapp.com/
 Pour ce projet voici la Dream-Team REMOTE qui comprends: </br>
 Leo du Sud alias @LeoD 🍻 / Miguel le Stand Upper 🤣 alias @Jayware / Louis Elie le business man latino 🌮 alias @louis-elie</br>
+
 
 * 1) Les Landings pages 💻 </br>
 Cette app contient 3 landings pages :</br> 
