@@ -1,0 +1,120 @@
+Searching 3793 files for "/img"
+
+/home/akira/THP_W7D4/landing-page/app/assets/stylesheets/_call-to-action.scss:
+    2    position: relative;
+    3    background-color: $gray-800;
+    4:   background: url('images/bg-masthead.jpg') no-repeat center center;
+    5    @include background-cover;
+    6    padding-top: 7rem;
+
+/home/akira/THP_W7D4/landing-page/app/assets/stylesheets/_masthead.scss:
+    2    position: relative;
+    3    background-color: $gray-800;
+    4:   background: url('images/bg-masthead.jpg') no-repeat center center;
+    5    @include background-cover;
+    6    padding-top: 8rem;
+
+/home/akira/THP_W7D4/landing-page/app/views/layouts/Find Results:
+   29  
+   30  /home/akira/THP_W7D4/landing-page/app/assets/stylesheets/landing-page.min.css:
+   31:     1: body{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif}h1,h2,h3,h4,h5,h6{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700}header.masthead{position:relative;background-color:#343a40;background:url(../img/bg-masthead.jpg) no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding-top:8rem;padding-bottom:8rem}header.masthead .overlay{position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3}header.masthead h1{font-size:2rem}@media (min-width:768px){header.masthead{padding-top:12rem;padding-bottom:12rem}header.masthead h1{font-size:3rem}}.showcase .showcase-text{padding:3rem}.showcase .showcase-img{min-height:30rem;background-size:cover}@media (min-width:768px){.showcase .showcase-text{padding:7rem}}.features-icons{padding-top:7rem;padding-bottom:7rem}.features-icons .features-icons-item{max-width:20rem}.features-icons .features-icons-item .features-icons-icon{height:7rem}.features-icons .features-icons-item .features-icons-icon i{font-size:4.5rem}.features-icons .features-icons-item:hover .features-icons-icon i{font-size:5rem}.testimonials{padding-top:7rem;padding-bottom:7rem}.testimonials .testimonial-item{max-width:18rem}.testimonials .testimonial-item img{max-width:12rem;box-shadow:0 5px 5px 0 #adb5bd}.call-to-action{position:relative;background-color:#343a40;background:url(../img/bg-masthead.jpg) no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding-top:7rem;padding-bottom:7rem}.call-to-action .overlay{position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3}footer.footer{padding-top:4rem;padding-bottom:4rem}
+   32  
+   33  /home/akira/THP_W7D4/landing-page/app/views/pages/index.html.erb:
+   ..
+   71    179  ActionController::RoutingError (No route matches [GET] "/vendor/bootstrap/js/bootstrap.bundle.min.js"):
+   72    180    
+   73:   181: Started GET "/img/testimonials-1.jpg" for 127.0.0.1 at 2018-05-16 15:42:35 +0200
+   74    182  actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+   75    183  web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+   ..
+   77    208  puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+   78    209    
+   79:   210: ActionController::RoutingError (No route matches [GET] "/img/testimonials-1.jpg"):
+   80    211    
+   81    212  actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+   ..
+   83    237  puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+   84    238  puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+   85:   239: Started GET "/img/testimonials-2.jpg" for 127.0.0.1 at 2018-05-16 15:42:35 +0200
+   86    240    
+   87:   241: Started GET "/img/testimonials-3.jpg" for 127.0.0.1 at 2018-05-16 15:42:35 +0200
+   88:   242: ActionController::RoutingError (No route matches [GET] "/img/testimonials-2.jpg"):
+   89    243    
+   90    244    
+   91:   245: ActionController::RoutingError (No route matches [GET] "/img/testimonials-3.jpg"):
+   92    246  actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+   93    247  web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+   ..
+   95    299  puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+   96    300  puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+   97:   301: Started GET "/img/bg-showcase-2.jpg" for 127.0.0.1 at 2018-05-16 15:42:35 +0200
+   98    302    
+   99:   303: ActionController::RoutingError (No route matches [GET] "/img/bg-showcase-2.jpg"):
+  100    304    
+  101    305  actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+  ...
+  103    330  puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+  104    331  puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  105:   332: Started GET "/img/bg-showcase-1.jpg" for 127.0.0.1 at 2018-05-16 15:42:36 +0200
+  106    333    
+  107:   334: ActionController::RoutingError (No route matches [GET] "/img/bg-showcase-1.jpg"):
+  108    335    
+  109    336  actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+  ...
+  111    361  puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+  112    362  puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  113:   363: Started GET "/img/bg-showcase-3.jpg" for 127.0.0.1 at 2018-05-16 15:42:36 +0200
+  114    364    
+  115:   365: ActionController::RoutingError (No route matches [GET] "/img/bg-showcase-3.jpg"):
+  116    366    
+  117    367  actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+  ...
+  120      5  ## Preview
+  121      6  
+  122:     7: [![Landing Page Preview](https://startbootstrap.com/assets/img/templates/landing-page.jpg)](https://blackrockdigital.github.io/startbootstrap-landing-page/)
+  123      8  
+  124      9  **[View Live Preview](https://blackrockdigital.github.io/startbootstrap-landing-page/)**
+
+/home/akira/THP_W7D4/landing-page/log/development.log:
+    <binary>
+
+/home/akira/THP_W7D4/landing-page/public/dev-assets/application-c3bcc9aa61a7472ed44f62a777d1bc7f685c3c6dba9325d54f8fa9890f7153ec.css:
+ 12570    position: relative;
+ 12571    background-color: #343a40;
+ 12572:   background: url("images/bg-masthead.jpg") no-repeat center center;
+ 12573    -webkit-background-size: cover;
+ 12574    -moz-background-size: cover;
+ .....
+ 12661    position: relative;
+ 12662    background-color: #343a40;
+ 12663:   background: url("images/bg-masthead.jpg") no-repeat center center;
+ 12664    -webkit-background-size: cover;
+ 12665    -moz-background-size: cover;
+ .....
+ 12712    position: relative;
+ 12713    background-color: #343a40;
+ 12714:   background: url("images/bg-masthead.jpg") no-repeat center center;
+ 12715    -webkit-background-size: cover;
+ 12716    -moz-background-size: cover;
+ .....
+ 12757    position: relative;
+ 12758    background-color: #343a40;
+ 12759:   background: url("images/bg-masthead.jpg") no-repeat center center;
+ 12760    -webkit-background-size: cover;
+ 12761    -moz-background-size: cover;
+
+/home/akira/THP_W7D4/landing-page/startbootstrap-landing-page/README.md:
+    5  ## Preview
+    6  
+    7: [![Landing Page Preview](https://startbootstrap.com/assets/img/templates/landing-page.jpg)](https://blackrockdigital.github.io/startbootstrap-landing-page/)
+    8  
+    9  **[View Live Preview](https://blackrockdigital.github.io/startbootstrap-landing-page/)**
+   ..
+   11  ## Status
+   12  
+   13: [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-landing-page/master/LICENSE)
+   14: [![npm version](https://img.shields.io/npm/v/startbootstrap-landing-page.svg)](https://www.npmjs.com/package/startbootstrap-landing-page)
+   15  [![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-landing-page.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-landing-page)
+   16  [![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page)
+
+414 matches across 6 files

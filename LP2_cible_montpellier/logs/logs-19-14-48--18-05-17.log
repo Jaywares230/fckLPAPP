@@ -1,0 +1,51 @@
+[1] [19:14:48 18-05-17] [CORE] -- : log files are checked
+[2] [19:14:49 18-05-17] [CORE] -- : Machine started
+[3] [19:14:49 18-05-17] [CREATE_PROTOCOL] -- : Protocol successfully created
+[4] [19:14:49 18-05-17] [CORE] -- : Processing successfully completed
+[5] [19:14:49 18-05-17] [LOGIN] -- : trying to login
+[6] [19:14:51 18-05-17] [LOGIN] -- : successfully logged in
+[7] [19:14:51 18-05-17] [MODES] -- : [Auto] mode is turned on
+[8] [19:14:51 18-05-17] [GRABBER] -- : Searching in hashtags [#THP]
+[9] [19:14:52 18-05-17] [GRABBER] -- : didn't find anything by hashtag #THP
+[10] [19:14:52 18-05-17] [GRABBER] -- : Searching in hashtags [#TheHackingProject]
+[11] [19:14:53 18-05-17] [GRABBER] -- : didn't find anything by hashtag #TheHackingProject
+[12] [19:14:53 18-05-17] [GRABBER] -- : Searching in hashtags [#Dev]
+[13] [19:14:54 18-05-17] [GRABBER] -- : didn't find anything by hashtag #Dev
+[14] [19:14:54 18-05-17] [GRABBER] -- : Searching in hashtags [#Ruby]
+[15] [19:14:56 18-05-17] [GRABBER] -- : didn't find anything by hashtag #Ruby
+[16] [19:14:56 18-05-17] [GRABBER] -- : Searching in hashtags [#RubyOnRails]
+[17] [19:14:57 18-05-17] [GRABBER] -- : didn't find anything by hashtag #RubyOnRails
+[18] [19:14:57 18-05-17] [GRABBER] -- : Searching in hashtags [#Montpellier]
+[19] [19:14:59 18-05-17] [GRABBER] -- : didn't find anything by hashtag #Montpellier
+[20] [19:14:59 18-05-17] [GRABBER] -- : Searching in hashtags [#Informatique]
+[21] [19:15:00 18-05-17] [GRABBER] -- : didn't find anything by hashtag #Informatique
+[22] [19:15:00 18-05-17] [GRABBER] -- : Searching in hashtags [#Web]
+[23] [19:15:01 18-05-17] [GRABBER] -- : didn't find anything by hashtag #Web
+[24] [19:15:01 18-05-17] [GRABBER] -- : Searching in hashtags [#Application]
+[25] [19:15:03 18-05-17] [GRABBER] -- : didn't find anything by hashtag #Application
+[26] [19:15:03 18-05-17] [GRABBER] -- : Searching in hashtags [#Freelance]
+[27] [19:15:04 18-05-17] [GRABBER] -- : didn't find anything by hashtag #Freelance
+[28] [19:15:04 18-05-17] [GRABBER] -- : Searching in hashtags [#Autoentrepreneur]
+[29] [19:15:06 18-05-17] [GRABBER] -- : didn't find anything by hashtag #Autoentrepreneur
+[30] [19:15:06 18-05-17] [GRABBER] -- : Searching in hashtags [#Code]
+[31] [19:15:07 18-05-17] [GRABBER] -- : didn't find anything by hashtag #Code
+[32] [19:15:07 18-05-17] [GRABBER] -- : Searching in hashtags [#peerlearning]
+[33] [19:15:08 18-05-17] [GRABBER] -- : didn't find anything by hashtag #peerlearning
+[34] [19:15:08 18-05-17] [GRABBER] -- : Searching in hashtags [#RoR]
+[35] [19:15:10 18-05-17] [GRABBER] -- : didn't find anything by hashtag #RoR
+[36] [19:15:10 18-05-17] [GRABBER] -- : Searching in hashtags [#Rails]
+[37] [19:15:11 18-05-17] [GRABBER] -- : didn't find anything by hashtag #Rails
+[38] [19:15:11 18-05-17] [GRABBER] -- : Searching in hashtags [#html]
+[39] [19:15:13 18-05-17] [GRABBER] -- : didn't find anything by hashtag #html
+[40] [19:15:13 18-05-17] [GRABBER] -- : Searching in hashtags [#css]
+[41] [19:15:14 18-05-17] [GRABBER] -- : didn't find anything by hashtag #css
+[42] [19:15:14 18-05-17] [GRABBER] -- : Searching in hashtags [#js]
+[43] [19:15:15 18-05-17] [GRABBER] -- : didn't find anything by hashtag #js
+[44] [19:15:15 18-05-17] [GRABBER] -- : Total grabbed users(1262) & Total grabbed medias(1262)
+[45] [19:15:15 18-05-17] [GRABBER] -- : Trying to get user (5851336112) information
+[46] [19:15:16 18-05-17] [GRABBER] -- : Trying to get user (5851336112) information
+[47] [19:15:17 18-05-17] [GRABBER] -- : Trying to get user (5851336112) information
+[48] [19:15:18 18-05-17] [GRABBER] -- : Trying to get user (5851336112) information
+[49] [19:15:19 18-05-17] [GRABBER] -- : Trying to get media (Bi4vE2fAU0S) information
+[50] [19:15:20 18-05-17] [ACTIONS] -- : trying to send a comment to media[1781380694191197458]
+[51] [19:15:20 18-05-17] [LOGIN] -- : checking loging status

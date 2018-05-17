@@ -1,0 +1,126 @@
+Searching 2669 files for "img/"
+
+/home/akira/THP_W7D4/landing-page/app/assets/stylesheets/_call-to-action.scss:
+    2    position: relative;
+    3    background-color: $gray-800;
+    4:   background: url('bg-masthead.jpg') no-repeat center center;
+    5    @include background-cover;
+    6    padding-top: 7rem;
+
+/home/akira/THP_W7D4/landing-page/app/assets/stylesheets/_masthead.scss:
+    2    position: relative;
+    3    background-color: $gray-800;
+    4:   background: url('bg-masthead.jpg') no-repeat center center;
+    5    @include background-cover;
+    6    padding-top: 8rem;
+
+/home/akira/THP_W7D4/landing-page/app/assets/stylesheets/landing-page.css:
+   16    position: relative;
+   17    background-color: #343a40;
+   18:   background: url("bg-masthead.jpg") no-repeat center center;
+   19    -webkit-background-size: cover;
+   20    -moz-background-size: cover;
+   ..
+  102    position: relative;
+  103    background-color: #343a40;
+  104:   background: url("bg-masthead.jpg") no-repeat center center;
+  105    -webkit-background-size: cover;
+  106    -moz-background-size: cover;
+
+/home/akira/THP_W7D4/landing-page/app/assets/stylesheets/landing-page.min.css:
+    1: body{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif}h1,h2,h3,h4,h5,h6{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700}header.masthead{position:relative;background-color:#343a40;background:url(../img/bg-masthead.jpg) no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding-top:8rem;padding-bottom:8rem}header.masthead .overlay{position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3}header.masthead h1{font-size:2rem}@media (min-width:768px){header.masthead{padding-top:12rem;padding-bottom:12rem}header.masthead h1{font-size:3rem}}.showcase .showcase-text{padding:3rem}.showcase .showcase-img{min-height:30rem;background-size:cover}@media (min-width:768px){.showcase .showcase-text{padding:7rem}}.features-icons{padding-top:7rem;padding-bottom:7rem}.features-icons .features-icons-item{max-width:20rem}.features-icons .features-icons-item .features-icons-icon{height:7rem}.features-icons .features-icons-item .features-icons-icon i{font-size:4.5rem}.features-icons .features-icons-item:hover .features-icons-icon i{font-size:5rem}.testimonials{padding-top:7rem;padding-bottom:7rem}.testimonials .testimonial-item{max-width:18rem}.testimonials .testimonial-item img{max-width:12rem;box-shadow:0 5px 5px 0 #adb5bd}.call-to-action{position:relative;background-color:#343a40;background:url(../img/bg-masthead.jpg) no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding-top:7rem;padding-bottom:7rem}.call-to-action .overlay{position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3}footer.footer{padding-top:4rem;padding-bottom:4rem}
+
+/home/akira/THP_W7D4/landing-page/app/views/pages/index.html.erb:
+   75          <div class="row no-gutters">
+   76  
+   77:           <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
+   78            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+   79              <h2>Fully Responsive Design</h2>
+   ..
+   82          </div>
+   83          <div class="row no-gutters">
+   84:           <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+   85            <div class="col-lg-6 my-auto showcase-text">
+   86              <h2>Updated For Bootstrap 4</h2>
+   ..
+   89          </div>
+   90          <div class="row no-gutters">
+   91:           <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
+   92            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+   93              <h2>Easy to Use &amp; Customize</h2>
+   ..
+  105            <div class="col-lg-4">
+  106              <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+  107:               <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
+  108                <h5>Margaret E.</h5>
+  109                <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
+  ...
+  112            <div class="col-lg-4">
+  113              <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+  114:               <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
+  115                <h5>Fred S.</h5>
+  116                <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+  ...
+  119            <div class="col-lg-4">
+  120              <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+  121:               <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
+  122                <h5>Sarah W.</h5>
+  123                <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
+
+/home/akira/THP_W7D4/landing-page/log/development.log:
+  179  ActionController::RoutingError (No route matches [GET] "/vendor/bootstrap/js/bootstrap.bundle.min.js"):
+  180    
+  181: Started GET "/img/testimonials-1.jpg" for 127.0.0.1 at 2018-05-16 15:42:35 +0200
+  182  actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+  183  web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+  ...
+  208  puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  209    
+  210: ActionController::RoutingError (No route matches [GET] "/img/testimonials-1.jpg"):
+  211    
+  212  actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+  ...
+  237  puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+  238  puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  239: Started GET "/img/testimonials-2.jpg" for 127.0.0.1 at 2018-05-16 15:42:35 +0200
+  240    
+  241: Started GET "/img/testimonials-3.jpg" for 127.0.0.1 at 2018-05-16 15:42:35 +0200
+  242: ActionController::RoutingError (No route matches [GET] "/img/testimonials-2.jpg"):
+  243    
+  244    
+  245: ActionController::RoutingError (No route matches [GET] "/img/testimonials-3.jpg"):
+  246  actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+  247  web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+  ...
+  299  puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+  300  puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  301: Started GET "/img/bg-showcase-2.jpg" for 127.0.0.1 at 2018-05-16 15:42:35 +0200
+  302    
+  303: ActionController::RoutingError (No route matches [GET] "/img/bg-showcase-2.jpg"):
+  304    
+  305  actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+  ...
+  330  puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+  331  puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  332: Started GET "/img/bg-showcase-1.jpg" for 127.0.0.1 at 2018-05-16 15:42:36 +0200
+  333    
+  334: ActionController::RoutingError (No route matches [GET] "/img/bg-showcase-1.jpg"):
+  335    
+  336  actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+  ...
+  361  puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+  362  puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  363: Started GET "/img/bg-showcase-3.jpg" for 127.0.0.1 at 2018-05-16 15:42:36 +0200
+  364    
+  365: ActionController::RoutingError (No route matches [GET] "/img/bg-showcase-3.jpg"):
+  366    
+  367  actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+
+/home/akira/THP_W7D4/landing-page/startbootstrap-landing-page/README.md:
+    5  ## Preview
+    6  
+    7: [![Landing Page Preview](https://startbootstrap.com/assets/img/templates/landing-page.jpg)](https://blackrockdigital.github.io/startbootstrap-landing-page/)
+    8  
+    9  **[View Live Preview](https://blackrockdigital.github.io/startbootstrap-landing-page/)**
+
+25 matches across 7 files
